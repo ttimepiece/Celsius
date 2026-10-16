@@ -22,7 +22,7 @@
 
 
 
-**Installation for mac/linux:**
+### Installation for mac/linux:
 ```
 sudo apt install pipx  ## Download pipx
 pipx install celsius   ## Install celsius
@@ -35,7 +35,7 @@ this is a placeholder
 
 
 
-## Commands:
+### Commands:
  
 
 > Celsius is built to replace your panel with an intuitive CLI interface: `celsius --bar`
@@ -49,12 +49,13 @@ celsius --loop   ## Displays a dashboard that updates in real time
 ```
 **Other arguments:** `--speed [int] --theme [name] --help`
 
-Celsius' default bar:
+Celsius bar:
 
 ![Screenshot 2](https://github.com/ttimepiece/Celsius/blob/main/screenshot%204.webp)
 
+---
 
-## Themes and configuration:
+### Themes and configuration:
 The theme can be changed by modifying DEFAULT_THEME at: `$HOME/.config/celsius.conf`
 
 
@@ -92,4 +93,8 @@ time          : false}
 </details>
 
 ---
-  Celsius displays essential information for minimalist Linux distros, it can show:
+Q. **What does Celsius do?** 
+Celsius is a CLI panel that offers easy access to information for minimalist and bare-bones Linux systems.
+
+Licensed under MIT. Please check 'LICENSE' for more information.
+
