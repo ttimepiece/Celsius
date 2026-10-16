@@ -20,27 +20,34 @@ pipx install celsius
 
 ![Screenshot 1](https://github.com/ttimepiece/Celsius/blob/main/screenshot1.webp)
 
-# Usage:
-> Celsius is built to replace your panel with an intuitive CLI interface: `Celsius --bar`
+## Usage:
+> Celsius is built to replace your panel with an intuitive CLI interface: `celsius --bar`
+
+```
+celsius --bar    ## Spawns the panel
+exit             ## Closes the panel
+
+celsius          ## Displays a static dashboard
+celsius --loop   ## Displays a dashboard that updates in real time
+```
+Other arguments: `--speed [int] --theme [name] --help`
 
 ![Screenshot 2](https://github.com/ttimepiece/Celsius/blob/main/screenshot%204.webp)
 
-```
-Celsius # Display the dashboard once
-Celsius --loop #Display as a real-time-clock
-Celsius --bar #Display the panel in the terminal,
 
-exit #Stop displaying the panel
-```
-Other arguments: `--speed [int]`
-
-# Themes:
+## Themes and configuration:
 ![Screenshot 2](https://github.com/ttimepiece/Celsius/blob/main/screenshot2.webp)
 
-Within the file at: `$HOME/.config/celsius.conf`
-All existing themes can be found.
-
-Picking a new theme is as easy as changing the line:
-`current_theme = 'claw'`
+The theme can be changed by modifying DEFAULT_THEME at: `$HOME/.config/celsius.conf`
 
 
+<details>
+<summary>Editing the config</summary>
+
+> New colors can be added by modifying the *.conf*
+```
+THEMES = {"claw": _theme((222, 115, 86), "mauve_twilight": _theme((...
+```
+*To create custom themes, add a new entry while respecting the format.*
+* The colors taken will follow this order: `Accent text, box borders, muted text, panel color`
+</details>
