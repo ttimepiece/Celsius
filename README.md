@@ -8,7 +8,8 @@
   ![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
 
 
-  ---
+  ##
+  
   Celsius displays essential information for minimalist Linux distros, it can show:
   
   **Widgets:** `Quotes, download/upload speed, wifi, local IP, battery, directory, timezone, time, calendar, sleep schedule`
