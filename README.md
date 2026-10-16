@@ -5,8 +5,9 @@
   A fast, lightweight panel that lives within your terminal.
   
   ![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
+  ![macOS](https://img.shields.io/badge/mac%20os-%23000000.svg?style=for-the-badge&logo=macos&logoColor=F0F0F0&logoSize=auto)
   ![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
-
+  
 
   ##
   
@@ -21,15 +22,22 @@
 
 
 
-* **Installation for mac/linux:**
+**Installation for mac/linux:**
+```
+sudo apt install pipx  ## Download pipx
+pipx install celsius   ## Install celsius
 
-`
-pipx install celsius
-`
+## Building Celsius from source
+sudo pacman -Si
+this is a placeholder
+```
 
 
 
-## Usage:
+
+## Commands:
+ 
+
 > Celsius is built to replace your panel with an intuitive CLI interface: `celsius --bar`
 
 ```
@@ -39,7 +47,9 @@ exit             ## Closes the panel
 celsius          ## Displays a static dashboard
 celsius --loop   ## Displays a dashboard that updates in real time
 ```
-Other arguments: `--speed [int] --theme [name] --help`
+**Other arguments:** `--speed [int] --theme [name] --help`
+
+Celsius' default bar:
 
 ![Screenshot 2](https://github.com/ttimepiece/Celsius/blob/main/screenshot%204.webp)
 
