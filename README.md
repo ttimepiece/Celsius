@@ -10,10 +10,9 @@
 
   ##
   
-  Celsius displays essential information for minimalist Linux distros, it can show:
-  
   **Widgets:** `Quotes, download/upload speed, wifi, local IP, battery, directory, timezone, time, calendar, sleep schedule`
   
+  ---
 
   
 </div>
@@ -21,7 +20,7 @@
 
 
 
-## 
+
 **Installation:**
 
 Linux/mac devices:
@@ -85,5 +84,4 @@ time          : false}
 </details>
 
 ---
-
-By displaying system information in a clean, non-intrusive panel.
+  Celsius displays essential information for minimalist Linux distros, it can show:
