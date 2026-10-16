@@ -13,12 +13,11 @@
   
   **Widgets:** `Quotes, download/upload speed, wifi, local IP, battery, directory, timezone, time, calendar, sleep schedule`
   
-  ---
 
   
 </div>
 
-
+---
 
 **Installation:**
 
