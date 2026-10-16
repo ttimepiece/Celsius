@@ -4,16 +4,26 @@
   
   A fast, lightweight panel that lives within your terminal.
   
-  
-  
   ![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
   ![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
+
+
+  ---
+  Celsius displays essential information for minimalist Linux distros, it can show:
+  
+  **Widgets:** `Quotes, download/upload speed, wifi, local IP, battery, directory, timezone, time, calendar, sleep schedule`
+  
+  ---
+
+  
 </div>
 
 
-## Installation:
 
-Universal with pipx:
+**Installation:**
+
+Linux/mac devices:
+
 `
 pipx install celsius
 `
@@ -36,18 +46,42 @@ Other arguments: `--speed [int] --theme [name] --help`
 
 
 ## Themes and configuration:
-![Screenshot 2](https://github.com/ttimepiece/Celsius/blob/main/screenshot2.webp)
-
 The theme can be changed by modifying DEFAULT_THEME at: `$HOME/.config/celsius.conf`
 
 
 <details>
-<summary>Editing the config</summary>
+<summary>Custom themes</summary>
 
-> New colors can be added by modifying the *.conf*
+> *New colors can be added by modifying* *celsius.conf*
+
 ```
 THEMES = {"claw": _theme((222, 115, 86), "mauve_twilight": _theme((...
 ```
 *To create custom themes, add a new entry while respecting the format.*
 * The colors taken will follow this order: `Accent text, box borders, muted text, panel color`
 </details>
+<details>
+<summary>Configuration options</summary>
+
+
+> *The .config gives users full control over celsius --bar*
+
+* Custom messages can be displayed on the panel by editing: `QUOTES = {"Celsius panel", "..."}`
+* The divider that separates widgets can be modified: `DIVIDER = "|"`
+* The speed at which the widgets scroll can also be modified: `SPEED = "4.5"`
+
+**Widgets can be toggled with:**
+```
+WIDGETS: {
+battery       : false,
+local_ip      : false,
+date          : false,
+timezone      : false,
+network_speed : false,
+time          : false}
+```
+</details>
+
+---
+
+By displaying system information in a clean, non-intrusive panel.
