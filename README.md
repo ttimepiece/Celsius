@@ -17,19 +17,17 @@
   
 </div>
 
+![Screenshot 1](https://github.com/ttimepiece/Celsius/blob/main/screenshot1.webp)
 
 
 
-
-**Installation:**
-
-Linux/mac devices:
+* **Installation for mac/linux:**
 
 `
 pipx install celsius
 `
 
-![Screenshot 1](https://github.com/ttimepiece/Celsius/blob/main/screenshot1.webp)
+
 
 ## Usage:
 > Celsius is built to replace your panel with an intuitive CLI interface: `celsius --bar`
