@@ -22,18 +22,17 @@
 
 
 
-### Installation for mac/linux:
+#### Installation for mac/linux:
 ```
 pipx install celsius                             ## Install Celsius
 echo "your phrase here" >> ~/"${SHELL##*/}rc"    ## Autostart Celsius
-
 nano $HOME/.config/celsius/celsius.conf          ## Customize widgets to your liking
 ```
 
 
 
 
-### Commands:
+#### Commands:
  
 
 > Celsius is built to replace your panel with an intuitive CLI interface: `celsius --bar`
@@ -41,16 +40,14 @@ nano $HOME/.config/celsius/celsius.conf          ## Customize widgets to your li
 ```
 celsius                 ## Spawns the panel
 exit                    ## Closes the panel
-
 celsius --dash          ## Displays a static dashboard
-celsius --dash --loop   ## Displays a dashboard that updates in real time
 ```
-**Other arguments:** `--speed [int] --theme [name] --help`
+**Other arguments:** `--speed [int] --loop --theme [name] --help`
 
 
 ---
 
-### Themes and configuration:
+#### Themes and configuration:
 The theme can be changed by modifying DEFAULT_THEME at: `$HOME/.config/celsius.conf`
 
 
