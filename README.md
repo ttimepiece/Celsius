@@ -44,13 +44,6 @@ celsius --dash          ## Displays a static dashboard
 ```
 **Other arguments:** `--speed [int] --loop --theme [name] --help`
 
-#### Features:
-A fully customizable panel that lives in your terminal.
-
-A large quantity of widgets to display essential information.
-
-Custom theme and widget support - celsius is built to be modular
- 
 
 
 ##
