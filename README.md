@@ -25,7 +25,7 @@
 #### Installation for mac/linux:
 ```
 pipx install celsius                             ## Install Celsius
-echo "your phrase here" >> ~/"${SHELL##*/}rc"    ## Autostart Celsius
+echo "celsius" >> ~/"${SHELL##*/}rc"             ## Autostart Celsius
 nano $HOME/.config/celsius/celsius.conf          ## Customize widgets to your liking
 ```
 
