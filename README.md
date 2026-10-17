@@ -33,7 +33,7 @@ nano $HOME/.config/celsius/celsius.conf          ## Customize widgets to your li
 
 
 
-#### Commands:
+#### Usage:
  
 
 > Celsius is built to replace your panel with an intuitive CLI interface: `celsius`
@@ -42,8 +42,8 @@ nano $HOME/.config/celsius/celsius.conf          ## Customize widgets to your li
 celsius                 ## Spawns the panel
 exit                    ## Closes the panel
 celsius --dash          ## Displays a static dashboard
+celsius --help          ## Full list of commands and arguments
 ```
-**Other arguments:** `--speed [int] --loop --theme [name] --help`
 
 
 
