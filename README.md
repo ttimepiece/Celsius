@@ -44,8 +44,7 @@ celsius --dash          ## Displays a static dashboard
 ```
 **Other arguments:** `--speed [int] --loop --theme [name] --help`
 
-
----
+##
 
 #### Themes and configuration:
 ```
