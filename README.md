@@ -91,15 +91,25 @@ time          : false}
   
   > Commonly asked questions:
   
-  Q. **What does Celsius do?** *Celsius is a CLI panel that offers easy access to information for minimalist and bare-bones Linux systems.*
+  &nbsp;&nbsp;&nbsp;Q. **What does Celsius do?** *Celsius is a CLI panel that offers easy access to information for minimalist and bare-bones Linux systems.*
 
-   Q. **Can it replace my wm's boring panel?** *It's built as a drop-in replacement for most panels. However it lacks an app menu, check out **rofi***
+  &nbsp;&nbsp;&nbsp;Q. **Can it replace my wm's boring panel?** *It's built as a drop-in replacement for most panels. However it lacks an app menu, check out **rofi***
 
-   Q. **How customizable is it?** *Most aspects of the bar can be tweaked in .conf, additionally it supports extensions and addons*
+  &nbsp;&nbsp;&nbsp;Q. **How customizable is it?** *Most aspects of the bar can be tweaked in .conf, additionally it supports extensions and addons*
    
 ---
 </details>
 
+<details>
+<summary>Widgets</summary>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✒︎` Widgets are all organized in .../celsius/providers/`
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.  Any .py file added in that directory will run if it's listen in the .config 'WIDGETS' list
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. For custom widgets and extensions use `clock.py` as a guideline.
+
+</details>
 
 Licensed under MIT. Please check 'LICENSE' for more information.
 
