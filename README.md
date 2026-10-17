@@ -11,7 +11,7 @@
 
   ##
   
-  **Widgets:** `Quotes, download/upload speed, wifi, local IP, battery, directory, timezone, time, calendar, sleep schedule`
+  **Widgets:** `Quotes, drives, download/upload speed, wifi, local IP, battery, directory, timezone, time, calendar, sleep schedule`
   
   ##
 
@@ -24,16 +24,14 @@
 
 ### Installation for mac/linux:
 ```
-sudo apt install pipx  ## Download pipx
-pipx install celsius   ## Install celsius
+pipx install celsius                             ## Install Celsius
+echo "your phrase here" >> ~/"${SHELL##*/}rc"    ## Autostart Celsius
 
-## Building Celsius from source
-sudo pacman -Si
-this is a placeholder
+nano $HOME/.config/celsius/celsius.conf          ## Customize widgets to your liking
 ```
 
 
-
+![Gif](https://raw.githubusercontent.com/ttimepiece/Celsius/refs/heads/main/preview.gif)
 
 ### Commands:
  
@@ -41,17 +39,14 @@ this is a placeholder
 > Celsius is built to replace your panel with an intuitive CLI interface: `celsius --bar`
 
 ```
-celsius --bar    ## Spawns the panel
-exit             ## Closes the panel
+celsius                 ## Spawns the panel
+exit                    ## Closes the panel
 
-celsius          ## Displays a static dashboard
-celsius --loop   ## Displays a dashboard that updates in real time
+celsius --dash          ## Displays a static dashboard
+celsius --dash --loop   ## Displays a dashboard that updates in real time
 ```
 **Other arguments:** `--speed [int] --theme [name] --help`
 
-Celsius bar:
-
-![Screenshot 2](https://github.com/ttimepiece/Celsius/blob/main/screenshot%204.webp)
 
 ---
 
@@ -93,8 +88,20 @@ time          : false}
 </details>
 
 ---
-Q. **What does Celsius do?** 
-Celsius is a CLI panel that offers easy access to information for minimalist and bare-bones Linux systems.
+<details>
+<summary>Q&A</summary>
+  
+  > Commonly asked questions:
+  
+  Q. **What does Celsius do?** *Celsius is a CLI panel that offers easy access to information for minimalist and bare-bones Linux systems.*
+
+   Q. **Can it replace my wm's boring panel?** *It's built as a drop-in replacement for most panels. However it lacks an app menu, check out **rofi***
+
+   Q. **How customizable is it?** *Most aspects of the bar can be tweaked in .conf, additionally it supports extensions and addons*
+   
+---
+</details>
+
 
 Licensed under MIT. Please check 'LICENSE' for more information.
 
