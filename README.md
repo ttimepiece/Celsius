@@ -26,6 +26,7 @@
 ```
 pipx install celsius                             ## Install Celsius
 echo "celsius" >> ~/"${SHELL##*/}rc"             ## Autostart Celsius
+
 nano $HOME/.config/celsius/celsius.conf          ## Customize widgets to your liking
 ```
 
@@ -50,11 +51,11 @@ celsius --dash          ## Displays a static dashboard
 <details>
 <summary>Themes and configuration:</summary>
 
-> *Your configuration file will be created at:*  `$HOME/.config/celsius/celsius.conf`
+
+&nbsp;&nbsp;&nbsp;
 
 
 
-**Custom themes:**
 
 *A brief guide on custom themes can be found in the config*
 * All customs color palettes should be placed inside `THEMES`
