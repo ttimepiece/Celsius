@@ -18,7 +18,7 @@
   
 </div>
 
-![Screenshot 1](https://github.com/ttimepiece/Celsius/blob/main/screenshot1.webp)
+![Preview](https://raw.githubusercontent.com/ttimepiece/Celsius/refs/heads/main/preview.gif)
 
 
 
@@ -31,7 +31,7 @@ nano $HOME/.config/celsius/celsius.conf          ## Customize widgets to your li
 ```
 
 
-![Gif](https://raw.githubusercontent.com/ttimepiece/Celsius/refs/heads/main/preview.gif)
+
 
 ### Commands:
  
