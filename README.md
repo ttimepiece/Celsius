@@ -11,7 +11,7 @@
 
   ##
   
-  **Widgets:** `Quotes, drives, download/upload speed, wifi, local IP, battery, directory, timezone, time, calendar, sleep schedule`
+  **Widgets:** `Quotes, drives, download/upload speed, wifi, local IP, battery, directory, timezone, time, calendar, sleep schedule, PulseAudio, RAM usage`
   
   ##
 
@@ -44,48 +44,43 @@ celsius --dash          ## Displays a static dashboard
 ```
 **Other arguments:** `--speed [int] --loop --theme [name] --help`
 
+#### Features:
+A fully customizable panel that lives in your terminal.
+
+A large quantity of widgets to display essential information.
+
+Custom theme and widget support - celsius is built to be modular
+ 
+
+
 ##
-
-#### Themes and configuration:
-```
-## Config file can be edited with:
-nano $HOME/.config/celsius/celsius.conf
-```
-
 <details>
-<summary>Custom themes</summary>
+<summary>Themes and configuration:</summary>
 
-> *New colors can be added by modifying* *celsius.conf*
+> *Your configuration file will be created at:*  `$HOME/.config/celsius/celsius.conf`
 
+
+
+**Custom themes:**
+
+*A brief guide on custom themes can be found in the config*
+* All customs color palettes should be placed inside `THEMES`
+  - Custom palettes can be chosen by modifying `THEME` or running celsius with `--theme [name]`
 ```
-THEMES = {"claw": _theme((222, 115, 86), "mauve_twilight": _theme((...
+THEMES = {
+    # "midnight": {
+    #     "highlight": (120, 140, 220),
+    #     "borders":   "#aab4e6",
+    #     "dimmed":    (130, 130, 130),
+    # },
 ```
-*To create custom themes, add a new entry while respecting the format.*
-* The colors taken will follow this order: `Accent text, box borders, muted text, panel color`
-</details>
-<details>
-<summary>Configuration options</summary>
-
-
-> *The .config gives users full control over celsius*
-
-* Custom messages can be displayed on the panel by editing: `QUOTES = {"Celsius panel", "..."}`
-* The divider that separates widgets can be modified: `DIVIDER = "|"`
-* The speed at which the widgets scroll can also be modified: `SPEED = "4.5"`
-
-**Widgets can be toggled with:**
-```
-WIDGETS: {
-battery       : false,
-local_ip      : false,
-date          : false,
-timezone      : false,
-network_speed : false,
-time          : false}
-```
-</details>
+ *All configuration options and settings are listed and explained in the .conf*
 
 ---
+
+</details>
+
+
 <details>
 <summary>Q&A</summary>
   
@@ -103,13 +98,17 @@ time          : false}
 <details>
 <summary>Widgets</summary>
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✒︎` Widgets are all organized in .../celsius/providers/`
+  > Widgets are all organized in the '.../celsius/providers/' file
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.  Any .py file added in that directory will run if it's listen in the .config 'WIDGETS' list
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*i.*  Any .py file added in that directory will run if listen in the .config 'WIDGETS' list
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. For custom widgets and extensions use `clock.py` as a guideline.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*ii.* For custom widgets and extensions use `clock.py` as a guideline.
+
+---
 
 </details>
+
+---
 
 Licensed under MIT. Please check 'LICENSE' for more information.
 
