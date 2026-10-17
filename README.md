@@ -35,7 +35,7 @@ nano $HOME/.config/celsius/celsius.conf          ## Customize widgets to your li
 #### Commands:
  
 
-> Celsius is built to replace your panel with an intuitive CLI interface: `celsius --bar`
+> Celsius is built to replace your panel with an intuitive CLI interface: `celsius`
 
 ```
 celsius                 ## Spawns the panel
@@ -48,8 +48,10 @@ celsius --dash          ## Displays a static dashboard
 ---
 
 #### Themes and configuration:
-The theme can be changed by modifying DEFAULT_THEME at: `$HOME/.config/celsius.conf`
-
+```
+## Config file can be edited with:
+nano $HOME/.config/celsius/celsius.conf
+```
 
 <details>
 <summary>Custom themes</summary>
@@ -66,7 +68,7 @@ THEMES = {"claw": _theme((222, 115, 86), "mauve_twilight": _theme((...
 <summary>Configuration options</summary>
 
 
-> *The .config gives users full control over celsius --bar*
+> *The .config gives users full control over celsius*
 
 * Custom messages can be displayed on the panel by editing: `QUOTES = {"Celsius panel", "..."}`
 * The divider that separates widgets can be modified: `DIVIDER = "|"`
