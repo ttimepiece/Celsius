@@ -81,9 +81,9 @@ THEMES = {
   
   &nbsp;&nbsp;&nbsp;Q. **What does Celsius do?** *Celsius is a CLI panel that offers easy access to information for minimalist and bare-bones Linux systems.*
 
-  &nbsp;&nbsp;&nbsp;Q. **Can it replace my wm's boring panel?** *It's built as a drop-in replacement for most panels. However it lacks an app menu, check out **rofi***
+  &nbsp;&nbsp;&nbsp;Q. **Can it replace my wm's boring panel?** *It's built as a drop-in replacement for most panels. However it lacks an app menu, check out **rofi***.
 
-  &nbsp;&nbsp;&nbsp;Q. **How customizable is it?** *Most aspects of the bar can be tweaked in .conf, additionally it supports extensions and addons*
+  &nbsp;&nbsp;&nbsp;Q. **How customizable is it?** *Most aspects of the bar can be tweaked in .conf, additionally it supports extensions and addons.*
    
 ---
 </details>
@@ -91,9 +91,9 @@ THEMES = {
 <details>
 <summary>Widgets</summary>
   
-  > Widgets are all organized in the '.../celsius/providers/' file
+  > Widgets are all organized in the '.../celsius/providers/' file.
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*i.*  Any .py file added in that directory will run if listen in the .config 'WIDGETS' list
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*i.*  Any .py file added in that directory will run if listen in the .config 'WIDGETS' list.
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*ii.* For custom widgets and extensions use `clock.py` as a guideline.
 
